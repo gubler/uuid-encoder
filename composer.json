@@ -1,0 +1,39 @@
+{
+    "name": "gubler/uuid-tool",
+    "type": "library",
+    "description": "Tool for working with UUIDs",
+    "keywords": [
+        "uuid"
+    ],
+    "homepage": "https://github.com/gubler/uuid-tool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daryl Gubler",
+            "email": "daryl@dev88.co",
+            "homepage": "http://dev88.co"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/gubler/uuid-tool/issues",
+        "source": "https://github.com/gubler/uuid-tool"
+    },
+    "require": {
+        "php": "^7.2.5",
+        "moontoast/math": "^1.1",
+        "ramsey/uuid": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gubler\\UuidTool\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gubler\\UuidTool\\Tests\\": "tests/"
+        }
+    }
+}
