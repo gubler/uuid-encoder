@@ -1,8 +1,8 @@
 # Contributing
 
-Contributions are welcome. We accept pull requests on [GitHub](https://github.com/gubler/doctrine-extra-types).
+Contributions are welcome. We accept pull requests on [GitHub](https://github.com/gubler/uuid-tool).
 
-This project adheres to a [Contributor Code of Conduct](https://github.com/gubler/doctrine-extra-types/blob/master/CODE_OF_CONDUCT.md). By participating in this project and its community, you are expected to uphold this code.
+This project adheres to a [Contributor Code of Conduct](https://github.com/gubler/uuid-tool/blob/master/CODE_OF_CONDUCT.md). By participating in this project and its community, you are expected to uphold this code.
 
 ## Team members
 
@@ -12,12 +12,12 @@ This project adheres to a [Contributor Code of Conduct](https://github.com/guble
 
 You can find help and discussion in the following places:
 
-* GitHub Issues: <https://github.com/gubler/doctrine-extra-types/issues>
-* Wiki: <https://github.com/gubler/doctrine-extra-types/wiki>
+* GitHub Issues: <https://github.com/gubler/uuid-tool/issues>
+* Wiki: <https://github.com/gubler/uuid-tool/wiki>
 
 ## Reporting Bugs
 
-Bugs are tracked in our project's [issue tracker](https://github.com/gubler/doctrine-extra-types/issues).
+Bugs are tracked in our project's [issue tracker](https://github.com/gubler/uuid-tool/issues).
 
 When submitting a bug report, please include enough information for us to reproduce the bug. A good bug report includes the following sections:
 
@@ -36,7 +36,7 @@ If you see a bug report that you'd like to fix, please feel free to do so. Follo
 
 ## Adding New Features
 
-If you have an idea for a new feature, it's a good idea to check out our [issues](https://github.com/gubler/doctrine-extra-types/issues) or active [pull requests](https://github.com/gubler/doctrine-extra-types/pulls) first to see if the feature is already being worked on. If not, feel free to submit an issue first, asking whether the feature is beneficial to the project. This will save you from doing a lot of development work only to have your feature rejected. We don't enjoy rejecting your hard work, but some features just don't fit with the goals of the project.
+If you have an idea for a new feature, it's a good idea to check out our [issues](https://github.com/gubler/uuid-tool/issues) or active [pull requests](https://github.com/gubler/uuid-tool/pulls) first to see if the feature is already being worked on. If not, feel free to submit an issue first, asking whether the feature is beneficial to the project. This will save you from doing a lot of development work only to have your feature rejected. We don't enjoy rejecting your hard work, but some features just don't fit with the goals of the project.
 
 When you do begin working on your feature, here are some guidelines to consider:
 
