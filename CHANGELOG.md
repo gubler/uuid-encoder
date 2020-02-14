@@ -1,3 +1,5 @@
 # Gubler\UuidEncoder Changelog
 
--- early dev --
+## v0.1.0 - 2020-02-14
+
+- Initial release
