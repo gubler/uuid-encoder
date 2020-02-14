@@ -1,3 +1,3 @@
-# Gubler\UuidTool Changelog
+# Gubler\UuidEncoder Changelog
 
 -- early dev --

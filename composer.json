@@ -1,11 +1,11 @@
 {
-    "name": "gubler/uuid-tool",
+    "name": "gubler/uuid-encoder",
     "type": "library",
-    "description": "Tool for working with UUIDs",
+    "description": "Tool for encoding ramsey/uuid into shorter strings",
     "keywords": [
         "uuid"
     ],
-    "homepage": "https://github.com/gubler/uuid-tool",
+    "homepage": "https://github.com/gubler/uuid-encoder",
     "license": "MIT",
     "authors": [
         {
@@ -15,8 +15,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/gubler/uuid-tool/issues",
-        "source": "https://github.com/gubler/uuid-tool"
+        "issues": "https://github.com/gubler/uuid-encoder/issues",
+        "source": "https://github.com/gubler/uuid-encoder"
     },
     "require": {
         "php": "^7.2.5",
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Gubler\\UuidTool\\": "src/"
+            "Gubler\\UuidEncoder\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gubler\\UuidTool\\Tests\\": "tests/"
+            "Gubler\\UuidEncoder\\Tests\\": "tests/"
         }
     }
 }
