@@ -9,13 +9,12 @@ use Ramsey\Uuid\UuidInterface;
 
 class UuidEncoder
 {
-    public const URL_CHARSET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_~.';
-    public const FILESYSTEM_CHARSET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    public const DEFAULT_CHARSET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
     /** @var string */
     private $charset;
 
-    public function __construct(string $charset = self::URL_CHARSET)
+    public function __construct(string $charset = self::DEFAULT_CHARSET)
     {
         $this->charset = $charset;
     }

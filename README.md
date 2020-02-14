@@ -19,7 +19,7 @@ use Ramsey\Uuid\Uuid;
 use Gubler\UuidEncoder\UuidEncoder;
 
 $uuid = Uuid::uuid4();
-$encoder = new UuidEncoder(UuidEncoder::URL_CHARSET);
+$encoder = new UuidEncoder(UuidEncoder::DEFAULT_CHARSET);
 
 $encodedString = $encoder->encode($uuid);
 ```

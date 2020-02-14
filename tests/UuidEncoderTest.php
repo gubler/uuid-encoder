@@ -22,7 +22,6 @@ class UuidEncoderTest extends TestCase
         $string = '00000000-0000-4000-8000-000000000000';
         $uuid = $this->tool->parse($string);
         $this->assertSame($string, $uuid->toString());
-
     }
 
     public function testCanParseUuid(): void
@@ -34,7 +33,7 @@ class UuidEncoderTest extends TestCase
 
     public function testCanEncodeFromUuidWithDefaultCharset(): void
     {
-        $expected = 'sP8IoTNzOC2MA';
+        $expected = 'BfqOrHCvh5dhuQ';
         $source = Uuid::fromString('00000000-0000-4000-8000-000000000000');
 
         $actual = $this->tool->encode($source);
@@ -43,7 +42,7 @@ class UuidEncoderTest extends TestCase
 
     public function testCanDecodeWithDefaultCharset(): void
     {
-        $source = 'sP8IoTNzOC2MA';
+        $source = 'BfqOrHCvh5dhuQ';
         $expected = Uuid::fromString('00000000-0000-4000-8000-000000000000');
 
         $actual = $this->tool->decode($source);
