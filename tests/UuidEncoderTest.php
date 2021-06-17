@@ -8,6 +8,9 @@ use PHPUnit\Framework\TestCase;
 use Gubler\UuidEncoder\UuidEncoder;
 use Ramsey\Uuid\Uuid;
 
+/**
+ * @covers \Gubler\UuidEncoder\UuidEncoder
+ */
 class UuidEncoderTest extends TestCase
 {
     private $tool;
@@ -46,6 +49,6 @@ class UuidEncoderTest extends TestCase
         $expected = Uuid::fromString('00000000-0000-4000-8000-000000000000');
 
         $actual = $this->tool->decode($source);
-        $this->assertEquals($expected, $actual);
+        $this->assertEquals(0, $expected->compareTo($actual));
     }
 }
